@@ -1,21 +1,25 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #d32f2f;
+    background: linear-gradient(135deg, #d32f2f, #b71c1c);
     color: white;
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav {
-    background-color: #b71c1c;
+    background: #b71c1c;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav a {
@@ -25,46 +29,64 @@ nav a {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    transition: background 0.3s;
 }
 
 nav a:hover {
-    background-color: #d32f2f;
+    background: #d32f2f;
 }
 
 .container {
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .section {
     margin-bottom: 40px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-top: 0;
 }
 
 footer {
-    background-color: #b71c1c;
+    background: #b71c1c;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-.card {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
+ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
 }
 
-.card h2 {
-    margin-top: 0;
+ul li:last-child {
+    border-bottom: none;
 }
