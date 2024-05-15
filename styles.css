@@ -102,6 +102,23 @@ nav a:hover {
     margin-top: 15px;
 }
 
+.welcome-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.welcome-animation {
+    font-size: 2.5em;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.welcome-animation.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 footer {
     background: rgba(183, 28, 28, 0.8);
     color: white;
@@ -126,3 +143,4 @@ ul li {
 ul li:last-child {
     border-bottom: none;
 }
+
