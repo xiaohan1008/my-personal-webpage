@@ -78,7 +78,18 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.section h2 {
+.hobby-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hobby-item img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.hobby-item h3 {
     margin-top: 0;
 }
 
