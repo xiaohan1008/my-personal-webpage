@@ -48,6 +48,7 @@ nav a:hover {
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.85);
     border-radius: 8px;
+    min-height: calc(100vh - 160px); /* Ensure the container takes up at least the full viewport height */
 }
 
 .section {
@@ -107,10 +108,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    /* Remove fixed positioning to avoid content overlay */
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Add margin to separate footer from content */
 }
 
 ul {
@@ -198,6 +198,7 @@ ul li:last-child {
         transform: scale(1);
     }
 }
+
 
 
 
