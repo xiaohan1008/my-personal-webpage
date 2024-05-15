@@ -78,19 +78,28 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
 .hobby-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 .hobby-item img {
-    max-width: 200px;
-    margin-right: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .hobby-item h3 {
-    margin-top: 0;
+    margin-top: 15px;
 }
 
 footer {
