@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: rgba(211, 47, 47, 0.9);
+    background: rgba(211, 47, 47, 0.8);
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -18,9 +18,13 @@ header {
 }
 
 nav {
-    background: rgba(183, 28, 28, 0.9);
+    background: rgba(183, 28, 28, 0.8);
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
@@ -38,10 +42,10 @@ nav a:hover {
 }
 
 .container {
-    padding: 20px;
+    padding: 80px 20px 20px; /* Add padding-top to avoid content being hidden under the fixed navbar */
     max-width: 1200px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 8px;
 }
 
@@ -70,11 +74,11 @@ nav a:hover {
 }
 
 footer {
-    background: rgba(183, 28, 28, 0.9);
+    background: rgba(183, 28, 28, 0.8);
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
