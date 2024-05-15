@@ -1,7 +1,8 @@
 /* General Styles */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f0f0f0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #d32f2f, #b71c1c);
+    background: rgba(211, 47, 47, 0.9);
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -17,7 +18,7 @@ header {
 }
 
 nav {
-    background: #b71c1c;
+    background: rgba(183, 28, 28, 0.9);
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -33,18 +34,20 @@ nav a {
 }
 
 nav a:hover {
-    background: #d32f2f;
+    background: rgba(211, 47, 47, 0.9);
 }
 
 .container {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
 }
 
 .section {
     margin-bottom: 40px;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -67,7 +70,7 @@ nav a:hover {
 }
 
 footer {
-    background: #b71c1c;
+    background: rgba(183, 28, 28, 0.9);
     color: white;
     text-align: center;
     padding: 10px 0;
