@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
@@ -15,6 +15,7 @@ header {
     padding: 40px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Lobster', cursive;
 }
 
 nav {
@@ -61,6 +62,14 @@ nav a:hover {
 .section:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section h2, .section h3 {
+    font-family: 'Lobster', cursive;
+}
+
+.section p, .section ul, .section li {
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .section img {
