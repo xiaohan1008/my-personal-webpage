@@ -46,15 +46,15 @@ nav a:hover {
     padding: 80px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.85); /* Increased transparency */
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 8px;
-    min-height: calc(100vh - 160px); /* Ensure the container height accounts for the footer */
+    min-height: calc(100vh - 160px);
     box-sizing: border-box;
 }
 
 .section {
     margin-bottom: 40px;
-    background: rgba(255, 255, 255, 0.85); /* Increased transparency */
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -88,7 +88,7 @@ nav a:hover {
 
 .hobby-item {
     text-align: center;
-    background: rgba(255, 255, 255, 0.85); /* Increased transparency */
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -109,7 +109,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: relative; /* Changed from fixed to relative */
+    position: relative;
     width: 100%;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
     margin-top: auto;
@@ -134,7 +134,7 @@ ul li:last-child {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    background: rgba(255, 255, 255, 0.85); /* Increased transparency */
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -165,9 +165,9 @@ ul li:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 160px); /* Adjust height to center the welcome section */
+    height: calc(100vh - 160px);
     text-align: center;
-    background: transparent; /* Make background transparent */
+    background: transparent;
 }
 
 .home-container .welcome-section {
@@ -200,6 +200,7 @@ ul li:last-child {
         transform: scale(1);
     }
 }
+
 
 
 
